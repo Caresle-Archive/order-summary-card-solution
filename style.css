@@ -3,7 +3,7 @@
 :root {
 	--pale-blue: hsl(225, 100%, 94%);
 	--bright-blue: hsl(245, 75%, 52%);
-	--very-pale-blue: hsl(225, 100%, 98%);
+	--very-pale-blue: hsl(228, 100%, 98%);
 	--desaturated-blue: hsl(224, 23%, 55%);
 	--dark-blue: hsl(223, 47%, 23%);
 }
@@ -15,4 +15,106 @@
 
 body {
 	font-size: 16px;
+}
+
+.container {
+	display: grid;
+	width: 357px;
+	margin: 2rem auto;
+	grid-template-columns: 1fr;
+	grid-template-rows: 180px 64px 128px repeat(3, 64px);
+	box-shadow: var(--dark-blue) 0px 7px 29px 0px;
+	border-radius: 1rem;
+}
+
+.container > img {
+	width: 100%;
+	border-radius: 1rem 1rem 0 0;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-direction-col {
+	flex-direction: column;
+}
+
+.justify-content-evenly {
+	justify-content: space-evenly;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.flex--center {
+	align-self: center;
+	justify-self: center;
+}
+
+.text--bold {
+	font-weight: 700;
+}
+
+.text--bold-2 {
+	font-weight: 900;
+}
+
+.text--center {
+	text-align: center;
+}
+
+.text--gray, .text--gray-no {
+	color: var(--desaturated-blue);
+}
+
+.text--gray:hover {
+	color: var(--dark-blue);
+}
+
+.text--dark {
+	color: var(--dark-blue);
+}
+
+.text--primary {
+	color: var(--bright-blue);
+}
+
+.text--underline {
+	text-decoration: underline;
+}
+
+.cursor--pointer:hover {
+	cursor: pointer
+}
+
+.btn {
+	border-radius: 1rem;
+	width: 90%;
+	height: 80%;
+	margin: 8px auto;
+	font-size: 16px;
+}
+
+.btn-primary {
+	background-color: var(--bright-blue);
+	border: 1px solid var(--bright-blue);
+	color: var(--pale-blue);
+}
+
+.btn-primary:hover {
+	filter: brightness(150%);
+}
+
+@media only screen and (min-width: 1440px) {
+	.container {
+		width: 450px;
+		grid-template-rows: 220px 64px 96px repeat(3, 64px);
+	}
+
+	p {
+		width: 80%;
+		margin: 0 auto;
+	}
 }

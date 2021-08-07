@@ -13,38 +13,40 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <h1>
+  <main class="container">
+    <img src="./images/illustration-hero.svg" alt="">
+    <h1 class="text--dark text--bold text--center">
       Order Summary
     </h1>
 
-    <p>
+    <p class="text--center text--gray-no">
       You can now listen to millions of songs, audiobooks, and podcasts on any 
       device anywhere you like!
     </p>
-    
-    <div>
+
+    <div class="d-flex justify-content-evenly align-items-center">
       <img src="./images/icon-music.svg" alt="" width="48" height="48">
-      <div>
-        <strong>
+      <div class="d-flex flex-direction-col">
+        <strong class="text--bold text--dark">
           Annual Plan
         </strong>
-        <span>
+        <span class="text--gray">
           $59.99/year
         </span>
       </div>
-      <span>
+      <span class="text--primary text--underline cursor--pointer">
         Change
       </span>
     </div>
 
-    <button>
+    <button class="btn btn-primary cursor--pointer text--bold-2">
       Proceed to Payment
     </button>
 
-    <div>
+    <div class="d-flex text--center flex--center cursor--pointer text--bold text--gray">
       Cancel Order
     </div>
   </main>
