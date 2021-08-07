@@ -27,8 +27,8 @@ El usuario deberá ser capaz de:
 ![](./readme-src/desktop.png)
 
 ### Links
-- URL para la solución: [Solution page]()
-- URL para probar el sitio: [Github pages]()
+- URL para la solución: [Solution page](https://www.frontendmentor.io/solutions/html-css-mobile-first-trying-to-use-bem-HBVBqASW_)
+- URL para probar el sitio: [Github pages](https://caresle.github.io/order-summary-card-solution/)
 
 ## Mi proceso
 

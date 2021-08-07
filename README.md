@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution page]()
-- Live Site URL: [Github pages]()
+- Solution URL: [Solution page](https://www.frontendmentor.io/solutions/html-css-mobile-first-trying-to-use-bem-HBVBqASW_)
+- Live Site URL: [Github pages](https://caresle.github.io/order-summary-card-solution/)
 
 ## My process
 
